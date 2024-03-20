@@ -1,7 +1,7 @@
 # Выбор СУБД для аналитической подсистемы (DWH)
 
 ## Status (Статус)
-DONE
+IN PROGRESS
 
 ## Context (Условия)
 Альтернативы:
@@ -11,13 +11,12 @@ DONE
 - Pinot
 
 ## Decision (Решение)
-N/A
 
 ## Consequences (Последствия)
 N/A
 
 ## Metainformation (Заметки)
-N/A
+* [Сравнение открытых OLAP-систем Big Data: ClickHouse, Druid и Pinot](https://habr.com/ru/companies/oleg-bunin/articles/351308/)
 
 ## Measurements (Измерения)
 N/A
