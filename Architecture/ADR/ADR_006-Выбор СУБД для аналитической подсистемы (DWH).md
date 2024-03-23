@@ -11,6 +11,7 @@ IN PROGRESS
 - Pinot
 
 ## Decision (Решение)
+Будем использовать Clickhouse, как более доступное Cloud OLAP/BigData решение с широким community.
 
 ## Consequences (Последствия)
 N/A
