@@ -1,10 +1,15 @@
-# Выбор
+# Выбор решения класса API-Gateway
 
 ## Status (Статус)
-N/A
+IN PROGRESS
 
 ## Context (Условия)
-N/A
+Альтернативы:
+* Kong (https://konghq.com/products/kong-gateway)
+* Gravitee (https://tyk.io/)
+* Tyk (https://tyk.io/)
+
+
 
 ## Decision (Решение)
 N/A
