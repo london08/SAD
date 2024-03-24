@@ -5,11 +5,11 @@ DONE
 
 ## Context (Условия)
 Альтернативы:
-- Snowflake (well-optimized for executing long-running reports)
-- Firebolt
-- Clickhouse (real-time data analytics)
-- Druid
-- Pinot
+- Snowflake (https://www.snowflake.com/en/). Well-optimized for executing long-running reports
+- Firebolt (https://www.firebolt.io/)
+- Clickhouse (https://clickhouse.com/). Real-time data analytics
+- Apache Druid (https://druid.apache.org/)
+- Apache Pinot (https://pinot.apache.org/)
 
 ### Требования
 - Производительность: высокая (сравнивать спортивные показатели, персональные и групповые)
@@ -27,7 +27,6 @@ DONE
 | OpenSource                                         | Нет       | Нет     | Да          | Нет     | Нет             |
 | Интенсивность развития                             | Высокая   | Высокая | Высокая     | Средняя | Высокая         |
 | Доступность у облачных провайдеров SaaS            | Да        | Да      | Да          | Да      | Да              |
-
 
 ## Decision (Решение)
 Будем использовать Apache Pinot, как современное Cloud OLAP/BigData решение с возможностями User-Facing Analytics (кастомизация статистики для конечного пользователя).
