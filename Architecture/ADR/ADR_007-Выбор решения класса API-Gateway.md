@@ -1,7 +1,7 @@
 # Выбор решения класса API-Gateway
 
 ## Status (Статус)
-IN PROGRESS
+DONE
 
 ## Context (Условия)
 Альтернативы:
