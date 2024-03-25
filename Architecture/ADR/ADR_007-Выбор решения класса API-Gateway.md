@@ -21,11 +21,11 @@ DONE
 | Поддержка GraphQL                      | Плагин  | Да       | Да      | Частич. | Да      |
 
 - Kong controls layer 4 and 7 traffic and is extended through Plugins, which provide extra functionality and services beyond the core platform. В квадранте лидеров по Gartner. 
-- KrakenD benefits: simplicity, statelessness, immutability, and performance. Большое кол-во интеграций.
+- KrakenD benefits: simplicity, statelessness, immutability, and performance. Большое кол-во интеграций. Не требует БД. Синхронизируется через etcd.
 - APISIX тоже производительный и удобный, и не имеет дополнительных костов для enterprise.
 
 ## Decision (Решение)
-Будем использовать KrakenD из-за производительности и statelessness. Не требует БД. Синхронизируется через etcd. 
+Будем использовать KrakenD из-за производительности и statelessness.  
 
 ## Consequences (Последствия)
 * Для развертывания потребуется etcd. 
