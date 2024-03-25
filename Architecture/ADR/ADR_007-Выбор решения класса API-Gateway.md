@@ -6,7 +6,7 @@ IN PROGRESS
 ## Context (Условия)
 Альтернативы:
 * Kong (https://konghq.com/products/kong-gateway)
-* Gravitee (https://tyk.io/)
+* Gravitee (https://www.gravitee.io/)
 * Tyk (https://tyk.io/)
 * KrakenD (https://www.krakend.io/)
 * Apache APISIX (https://apisix.apache.org/)
