@@ -13,11 +13,12 @@ IN PROGRESS
 
 | Критерий / Решение                     | Kong    | Gravitee | Tyk     | APISIX  | KrakenD |
 |:---------------------------------------|:--------|:---------|:--------|:--------|:--------|
-| Трудоемкость внедрения и использования | Низкая  | Средняя  | Средняя | Низкая  |         |
+| Трудоемкость внедрения и использования | Низкая  | Средняя  | Средняя | Низкая  | Низкая  |
 | Cloud-ready                            | Да      | Да       | Да      | Да      | Да      |
 | OpenSource                             | Да      | Да       | Да      | Да      | Да      |
 | Поддержка сообщества                   | Сильная | Слабая   | Сильная | Сильная | Сильная |
 | Наличие GUI администратора             | Нет     | Да       | Да      | Да      | Да      |
+| Поддержка GraphQL                      | Плагин  | Да       | Да      | Частич. | Да      |
 
 - Kong controls layer 4 and 7 traffic and is extended through Plugins, which provide extra functionality and services beyond the core platform. В квадранте лидеров по Gartner. 
 - KrakenD benefits: simplicity, statelessness, immutability, and performance. Большое кол-во интеграций.
@@ -27,7 +28,9 @@ IN PROGRESS
 Будем использовать KrakenD из-за производительности и statelessness. Не требует БД. Синхронизируется через etcd. 
 
 ## Consequences (Последствия)
-Для развертывания потребуется etcd.
+Для развертывания потребуется etcd. 
+https://www.krakend.io/docs/deploying/
+https://www.krakend.io/docs/overview/
 
 ## Metainformation (Заметки)
 *[Comparison Chart](https://sourceforge.net/software/compare/Gravitee.io-vs-Kong-Konnect-vs-Tyk-vs-WSO2-API-Manager/)
