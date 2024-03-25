@@ -33,11 +33,11 @@ https://www.krakend.io/docs/deploying/
 https://www.krakend.io/docs/overview/
 
 ## Metainformation (Заметки)
-*[Comparison Chart](https://sourceforge.net/software/compare/Gravitee.io-vs-Kong-Konnect-vs-Tyk-vs-WSO2-API-Manager/)
-*[Comparison Chart](https://sourceforge.net/software/compare/Apache-APISIX-vs-Gravitee.io-vs-KrakenD-vs-Tyk/)
-*[](https://dev.to/apisix/how-to-choose-the-right-api-gateway-3f9i)
-*[](https://habr.com/ru/articles/765944/)
-*[](https://api7.ai/tyk-vs-kong)
+* [Comparison Chart](https://sourceforge.net/software/compare/Gravitee.io-vs-Kong-Konnect-vs-Tyk-vs-WSO2-API-Manager/)
+* [Comparison Chart](https://sourceforge.net/software/compare/Apache-APISIX-vs-Gravitee.io-vs-KrakenD-vs-Tyk/)
+* [How to choose the right api gateway](https://dev.to/apisix/how-to-choose-the-right-api-gateway-3f9i)
+* [API Gateway для микросервисов](https://habr.com/ru/articles/765944/)
+* [Tyk vs Kong](https://api7.ai/tyk-vs-kong)
 
 ## Measurements (Измерения)
 N/A
