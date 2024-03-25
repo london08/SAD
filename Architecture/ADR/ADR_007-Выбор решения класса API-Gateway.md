@@ -28,9 +28,9 @@ DONE
 Будем использовать KrakenD из-за производительности и statelessness. Не требует БД. Синхронизируется через etcd. 
 
 ## Consequences (Последствия)
-Для развертывания потребуется etcd. 
-https://www.krakend.io/docs/deploying/
-https://www.krakend.io/docs/overview/
+* Для развертывания потребуется etcd. 
+* [Развертывание](https://www.krakend.io/docs/deploying/)
+* [Документация](https://www.krakend.io/docs/overview/)
 
 ## Metainformation (Заметки)
 * [Comparison Chart](https://sourceforge.net/software/compare/Gravitee.io-vs-Kong-Konnect-vs-Tyk-vs-WSO2-API-Manager/)
